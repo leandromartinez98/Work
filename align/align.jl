@@ -6,7 +6,7 @@
   the "Procrustes" problem. Structures are expected to be of the same size, and the 
   correspondence is assumed from the vector indices. 
  
-  Returns x aligned, by performing the rigid body transformatio [rotation
+  Returns x aligned, by performing the rigid body transformation [rotation
   and translation that minimizes the RMSD between x and y].
  
   x, y, and xnew (return) are matrices of dimensions (n,3) 
