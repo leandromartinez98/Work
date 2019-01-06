@@ -19,7 +19,7 @@
 
 using LinearAlgebra
 
-function align( x :: Matrix{}, y :: Matrix{} )
+function align( x :: Matrix{Float64}, y :: Matrix{Float64} )
 
   n = size(x,1)
 
